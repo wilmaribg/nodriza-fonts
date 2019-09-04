@@ -1,0 +1,145 @@
+@font-face {
+  font-family: "nodriza-fonts";
+  src: url('../fonts/nodriza-fonts.eot');
+  src: url('../fonts/nodriza-fonts.eot?#iefix') format('eot'),
+    url('../fonts/nodriza-fonts.woff2') format('woff2'),
+    url('../fonts/nodriza-fonts.woff') format('woff'),
+    url('../fonts/nodriza-fonts.ttf') format('truetype'),
+    url('../fonts/nodriza-fonts.svg#nodriza-fonts') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.nf:before {
+  display: inline-block;
+  font-family: "nodriza-fonts";
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.nf-lg {
+  font-size: 1.3333333333333333em;
+  line-height: 0.75em;
+  vertical-align: -15%;
+}
+.nf-2x { font-size: 2em; }
+.nf-3x { font-size: 3em; }
+.nf-4x { font-size: 4em; }
+.nf-5x { font-size: 5em; }
+.nf-fw {
+  width: 1.2857142857142858em;
+  text-align: center;
+}
+
+.nf-Tool:before { content: "\EA01" }
+.nf-accounting:before { content: "\EA02" }
+.nf-activity:before { content: "\EA03" }
+.nf-ami:before { content: "\EA04" }
+.nf-article:before { content: "\EA05" }
+.nf-availabilityZone:before { content: "\EA06" }
+.nf-aws-cloud:before { content: "\EA07" }
+.nf-aws-cubes:before { content: "\EA08" }
+.nf-awsAccount:before { content: "\EA09" }
+.nf-awsBill:before { content: "\EA0A" }
+.nf-awsElasticIp:before { content: "\EA0B" }
+.nf-awsInstance:before { content: "\EA0C" }
+.nf-awsIopsMonthProvisioned:before { content: "\EA0D" }
+.nf-awsVolume:before { content: "\EA0E" }
+.nf-board:before { content: "\EA0F" }
+.nf-bot:before { content: "\EA10" }
+.nf-calendar:before { content: "\EA11" }
+.nf-cancel:before { content: "\EA12" }
+.nf-category:before { content: "\EA13" }
+.nf-cc:before { content: "\EA14" }
+.nf-chatbot:before { content: "\EA15" }
+.nf-client:before { content: "\EA16" }
+.nf-cloud-management:before { content: "\EA17" }
+.nf-cloudBilling:before { content: "\EA18" }
+.nf-cloudCommerce:before { content: "\EA19" }
+.nf-coffee:before { content: "\EA1A" }
+.nf-company:before { content: "\EA1B" }
+.nf-contract:before { content: "\EA1C" }
+.nf-costCenter:before { content: "\EA1D" }
+.nf-country:before { content: "\EA1E" }
+.nf-cron:before { content: "\EA1F" }
+.nf-cronPreset:before { content: "\EA20" }
+.nf-cube:before { content: "\EA21" }
+.nf-currency:before { content: "\EA22" }
+.nf-custom:before { content: "\EA23" }
+.nf-dashboard:before { content: "\EA24" }
+.nf-department:before { content: "\EA25" }
+.nf-dir:before { content: "\EA26" }
+.nf-directory:before { content: "\EA27" }
+.nf-doc:before { content: "\EA28" }
+.nf-dropbox:before { content: "\EA29" }
+.nf-edit:before { content: "\EA2A" }
+.nf-editor:before { content: "\EA2B" }
+.nf-email:before { content: "\EA2C" }
+.nf-eraser:before { content: "\EA2D" }
+.nf-facebook:before { content: "\EA2E" }
+.nf-github:before { content: "\EA2F" }
+.nf-google:before { content: "\EA30" }
+.nf-healthCheck:before { content: "\EA31" }
+.nf-home:before { content: "\EA32" }
+.nf-id-card:before { content: "\EA33" }
+.nf-incident:before { content: "\EA34" }
+.nf-invoice:before { content: "\EA35" }
+.nf-key:before { content: "\EA36" }
+.nf-lead:before { content: "\EA37" }
+.nf-legal:before { content: "\EA38" }
+.nf-lifesaver:before { content: "\EA39" }
+.nf-linkedin:before { content: "\EA3A" }
+.nf-location:before { content: "\EA3B" }
+.nf-lock:before { content: "\EA3C" }
+.nf-message:before { content: "\EA3D" }
+.nf-ms-365:before { content: "\EA3E" }
+.nf-nodriza-circle:before { content: "\EA3F" }
+.nf-nodriza-logosym:before { content: "\EA40" }
+.nf-nodriza-outline:before { content: "\EA41" }
+.nf-nodriza-powered:before { content: "\EA42" }
+.nf-nodriza-sq:before { content: "\EA43" }
+.nf-nodriza-typo:before { content: "\EA44" }
+.nf-nodriza:before { content: "\EA45" }
+.nf-ok:before { content: "\EA46" }
+.nf-package:before { content: "\EA47" }
+.nf-partner:before { content: "\EA48" }
+.nf-paymentReceived:before { content: "\EA49" }
+.nf-pen-rule:before { content: "\EA4A" }
+.nf-phone:before { content: "\EA4B" }
+.nf-plan:before { content: "\EA4C" }
+.nf-plugin:before { content: "\EA4D" }
+.nf-product:before { content: "\EA4E" }
+.nf-proposal:before { content: "\EA4F" }
+.nf-provider:before { content: "\EA50" }
+.nf-purchaseOrder:before { content: "\EA51" }
+.nf-recurringInvoice:before { content: "\EA52" }
+.nf-region:before { content: "\EA53" }
+.nf-rename:before { content: "\EA54" }
+.nf-report:before { content: "\EA55" }
+.nf-restore:before { content: "\EA56" }
+.nf-rocket:before { content: "\EA57" }
+.nf-role:before { content: "\EA58" }
+.nf-salesforce:before { content: "\EA59" }
+.nf-search:before { content: "\EA5A" }
+.nf-server:before { content: "\EA5B" }
+.nf-sheet:before { content: "\EA5C" }
+.nf-signature:before { content: "\EA5D" }
+.nf-slack:before { content: "\EA5E" }
+.nf-system:before { content: "\EA5F" }
+.nf-systemProcess:before { content: "\EA60" }
+.nf-tasks:before { content: "\EA61" }
+.nf-tax:before { content: "\EA62" }
+.nf-telescope:before { content: "\EA63" }
+.nf-template:before { content: "\EA64" }
+.nf-templateGallery:before { content: "\EA65" }
+.nf-timeZone:before { content: "\EA66" }
+.nf-tools:before { content: "\EA67" }
+.nf-twitter:before { content: "\EA68" }
+.nf-unlock:before { content: "\EA69" }
+.nf-upload:before { content: "\EA6A" }
+.nf-user:before { content: "\EA6B" }
+.nf-windows:before { content: "\EA6C" }
+.nf-zendesk:before { content: "\EA6D" }
